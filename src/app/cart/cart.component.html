@@ -1,0 +1,17 @@
+<h1 class="text-center my-5">Cart</h1>
+<div class="list-group">
+	<div *ngFor="let booking of bookings; index as index">
+		<div class="list-group-item list-group-item-action">
+			<div class="row mx-auto w-50">
+				<span class="lead col-4">{{ booking.destination }} </span>
+				<span class="lead col-4"
+					><strong> {{ booking.price | currency: 'EUR' }}</strong></span
+				>
+				<span class="btn btn-danger col-2" (click)="deleteBooking(index)">Delete</span>
+			</div>
+		</div>
+	</div>
+	<div class="text-center list-group-item list-group-item-action p-3 lead my-5">
+		<strong>{{ calculateTotal() }}</strong>
+	</div>
+</div>

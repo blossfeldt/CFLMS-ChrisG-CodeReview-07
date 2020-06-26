@@ -1,1 +1,28 @@
-<p>travels works!</p>
+<div class="row row-cols-2">
+	<div class="card" *ngFor="let region of travel_regions">
+		<div class="img_container">
+			<img
+				class="card-img-top"
+				src="../../assets/img/{{ region.image }}"
+				alt="Image of {{ region.destination }}"
+			/>
+		</div>
+		<div class="card-body">
+			<h5 class="card-title">{{ region.destination }}</h5>
+			<p class="card-text">
+				{{ region.description }}
+			</p>
+		</div>
+		<ul class="list-group list-group-flush">
+			<li class="list-group-item">{{ region.start.toDateString() }}</li>
+			<li class="list-group-item">{{ region.duration }}</li>
+			<li class="list-group-item">
+				<span class="btn btn-outline-success" (click)="addToCart(region)"
+					>Book for {{ region.price | currency: 'EUR' }}</span
+				>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- Credits: https://www.lonelyplanet.com/best-in-travel/regions
+Using Content and Images for educational purposes only -->

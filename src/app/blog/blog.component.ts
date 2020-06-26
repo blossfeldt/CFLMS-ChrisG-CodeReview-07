@@ -1,15 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-blog',
-  templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.sass']
+	selector: 'app-blog',
+	templateUrl: './blog.component.html',
+	styleUrls: ['./blog.component.sass'],
 })
 export class BlogComponent implements OnInit {
+	constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+	ngOnInit(): void {
+		document.body.classList.remove('bg-img');
+	}
 }

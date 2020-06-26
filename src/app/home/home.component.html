@@ -1,1 +1,35 @@
-<p>home works!</p>
+<div class="wrap">
+	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column mt-5">
+		<div role="main" class="inner cover rounded text-white">
+			<h1 class="cover-heading">Experience the best trip ever</h1>
+			<p class="lead">
+				Travel is the movement of people between distant geographical locations. Travel can be done by foot,
+				bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can
+				be one way or round trip. Travel can also include relatively short stays between successive movements,
+				as in the case of tourism.
+			</p>
+			<p class="lead">
+				<a routerLink="/blog" class="btn btn-outline-light">Checkout our Blog</a>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="gimme_a_break">
+	<br />
+</div>
+<h1 class="text-center my-5">Our Strong Wall of Services</h1>
+<!-- <div class="services row row-cols-4 w-75 mx-auto"> -->
+<p class="moretel m-0"><br /></p>
+<div class="card-columns moretel p-1">
+	<div *ngFor="let service of services">
+		<div class="card backsteinrot">
+			<div class="card-body">
+				<h5 class="card-title text-center">{{ service.name }}</h5>
+				<p class="card-text">
+					{{ service.description }}
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<p class="moretel m-0"><br /></p>

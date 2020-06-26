@@ -1,1 +1,15 @@
-<p>navbar works!</p>
+<div class="nav-container p-2 sticky-top">
+	<nav class="nav nav-masthead justify-content-center mb-auto mx-auto">
+		<h3 class="masthead-brand mr-5">{{ company }}</h3>
+		<a class="nav-link lead" routerLink="/home" [routerLinkActive]="['active']">Home</a>
+		<a class="nav-link lead" routerLink="/blog" [routerLinkActive]="['active']">Blog</a>
+		<a class="nav-link lead" routerLink="/travel" [routerLinkActive]="['active']">Travels</a>
+		<!-- <a class="nav-link" routerLink="/cart" [routerLinkActive]="['active']">Cart</a> -->
+		<button class="btn btn-outline-info ml-5" routerLink="/cart" type="submit">
+			<i class="fas fa-shopping-cart"></i
+			><sup
+				><span class="bg-danger text-white rounded-pill">{{ display() }}</span></sup
+			>
+		</button>
+	</nav>
+</div>

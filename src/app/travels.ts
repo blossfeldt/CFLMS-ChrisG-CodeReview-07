@@ -1,0 +1,42 @@
+export const travel_array = [
+	{
+		destination: 'Central Asian Silk Road',
+		description: `A region once made rich by trade and travellers, the Central Asian Silk Road is again at the centre of global interest. The ancient cities, bustling bazaars and wild landscapes of Central Asia are drawing increasing numbers of visitors looking for adventure along one of history’s most storied travel routes. Kyrgyzstan, Tajikistan and Uzbekistan all now offer either visa-free access or e-visas for the majority of the world’s citizens; and the region is moving towards a unified ‘Silk Road’ visa. Meanwhile massive transportation and infrastructure investment – much of it under the aegis of China’s Belt and Road Initiative – make travelling the modern Silk Road more accessible than ever before.`,
+		start: new Date(2020, 6, 17),
+		duration: '30 Days',
+		price: 400,
+		image: 'asia.jpg',
+	},
+	{
+		destination: 'Le Marche, Italy',
+		description: `It looks like the understudy is finally ready to take centre stage. Though the main roles usually go to its superstar neighbour, Tuscany, the Le Marche region of Italy has just as wide a repertoire. It can do higgledy-piggledy hilltop towns, gloriously gluttonous food festivals, resplendent Renaissance palaces, winding countryside and inviting beaches with equal panache, but with the added bonus that its attractions are much less well known. In 2020, the spotlight will shine brightly here as Urbino, Le Marche’s most picturesque city, leads the celebrations to mark the 500th anniversary of the death of the great Renaissance painter – and local boy made good – Raphael.`,
+		start: new Date(2020, 7, 7),
+		duration: '12 Days',
+		price: 110,
+		image: 'italy.jpg',
+	},
+	{
+		destination: 'Tōhoku, Japan',
+		description: `Japan will be buzzing in 2020 as the world descends on Tokyo for the Summer Olympics, and perhaps no region in the country is more eager to get in on the party than Tōhoku. In recovery mode since the devastation of the 2011 earthquake and tsunami, this under-touristed swathe of the country has also been hard at work reopening transport links, developing new long-distance hiking trails, and rebuilding and improving tourist facilities. Already known within Japan for its dramatic natural landscapes, cultural heritage, historic festivals, good food and warm welcome, Tōhoku is emerging as a breath of fresh air for the crowd-weary adventurous visitor, and is just a few bullet-train hours northeast of the capital.`,
+		start: new Date(2020, 8, 1),
+		duration: '33 Days',
+		price: 300,
+		image: 'japan.jpg',
+	},
+	{
+		destination: 'Maine, USA',
+		description: `New England’s biggest state has always been full of pride, but this year the love for ‘Vacationland’ will reach fever pitch as Maine celebrates its bicentennial. Across the region, towns and cities are holding special exhibitions, concerts and festivals to commemorate 200 years of statehood. Of course, even if Maine wasn’t celebrating a major milestone, it would still be a great time to visit. The culinary scene has exploded in recent years, and you’ll find farm-to-table restaurants, coffee roasters, artisanal bakers and craft brewers all across the state. And despite Maine’s growing popularity, it’s easy to escape the crowds amid the state’s vast forests and its dramatic, lighthouse-strewn coastline.`,
+		start: new Date(2020, 9, 3),
+		duration: '14 Days',
+		price: 50,
+		image: 'usa.jpg',
+	},
+	{
+		destination: 'Lord Howe Island, Australia',
+		description: `Parked in the middle of nowhere 600km off the Australian coast, this visually stunning island makes an instant impact on the senses with its jaw-dropping World Heritage–listed beauty. Two soaring green mountains overlook a perfect lagoon and the world’s southernmost coral reef; perfect crescents of beach and splendid hiking trails through the lush forest add to brilliant outdoors possibilities. This one-time volcano’s isolation makes it a refuge for many endemic species, as well as plentiful birdlife. The island is a shining example of sustainably managed tourism; only 400 visitors are allowed at any time, and you are encouraged to participate in a series of ecological projects. Lord Howe’s remoteness and manageable size make it an idyllic escape.`,
+		start: new Date(2020, 10, 27),
+		duration: '10 Days',
+		price: 140,
+		image: 'australia.jpg',
+	},
+];
